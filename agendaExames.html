@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Bem Estar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <a href="MenuPrincipal.html" class="back-botton"> < </a>
+            <h1>Agendamento de Exames</h1>
+            <form action="/confirmar_agendamento" method="POST">
+                <label for="submit">Informe o Exame</label>
+                <input type="text" id="text" name="text" required>
+                
+                <label for="data">Escolha a Data:</label>
+                <input type="date" id="data" name="data" required>
+    
+                <label for="hora">Escolha o Horário:</label>
+                <input type="time" id="hora" name="hora" required>
+                <div class="spacing">
+                    <h2>Horários Disponíveis:</h2>
+                    <div class="available-times">
+                        <!-- Exemplos de horários disponíveis -->
+                        <div class="available-time">09:00</div>
+                        <div class="available-time">11:00</div>
+                        <div class="available-time">14:00</div>
+                        <div class="available-time">15:00</div>
+                        <div class="available-time">16:00</div>
+                    </div>
+                </div>
+            </div>
+            <a href="MenuPrincipal.html" class="button-link">Confirmar Agendamento</a>
+               
+            </form>
+        </div>
+</body>
+</html>
