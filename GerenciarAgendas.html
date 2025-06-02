@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciar Agendas</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <div class="containerrr">
+    <a href="Profissional.html" class="back-botton"> < </a> 
+    <h2>Gerenciar Agendas</h2>
+
+    <div class="cadastro-item">
+      <h3>Horários Cadastrados</h3>
+      <ul>
+        <li>Segunda - 08:00 às 12:00</li>
+        <li>Terça - 13:00 às 17:00</li>
+        <li>Quinta - 09:00 às 12:00</li>
+      </ul>
+      <p style="font-size: 0.9em; color: gray;">(Remoção e edição desativadas no protótipo)</p>
+    </div>
+
+    <div class="cadastro-item">
+      <h3>Adicionar Novo Horário</h3>
+      <form action="#" method="post">
+        <label for="dia">Dia da Semana:</label>
+        <select id="dia" name="dia">
+          <option>Segunda</option>
+          <option>Terça</option>
+          <option>Quarta</option>
+          <option>Quinta</option>
+          <option>Sexta</option>
+        </select>
+
+        <label for="inicio">Horário de Início:</label>
+        <input type="time" id="inicio" name="inicio">
+
+        <label for="fim">Horário de Término:</label>
+        <input type="time" id="fim" name="fim">
+
+        <button type="submit" disabled>Adicionar Horário</button>
+      </form>
+    </div>
+
+    
+  </div>
+
+</body>
+</html>
