@@ -27,8 +27,8 @@ body {
     gap: 20px;
 }
 .button {
-    background-color:rgb(52, 66, 52);
-    border-color: rgb(0, 255, 128);
+    background-color:rgb(11, 124, 37);
+    border-color: rgb(42, 230, 136);
     color: rgb(255, 255, 255);
     padding: 15px 30px;
     text-decoration: none;
@@ -39,18 +39,6 @@ body {
     transition: 0.5s ;
 }
 
-.button22 {
-    background-color:rgb(27, 131, 122);
-    border-color: #18ac62;
-    color: rgb(255, 255, 255);
-    padding: 15px 30px ;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    width: 250px;
-    text-align: center;
-    transition: 0.5s ;
-}
 
 .login-button {
     width: 100%;
@@ -60,30 +48,14 @@ body {
     border: none;
     cursor: pointer;
   }
-
-.containe2 {
-    background-color: #d9f3cc;
-    border-radius: 8px;
-    padding: 20px;
-}
-
-    
+   
 .container {
     background-color: #f8f4f4;
     border-radius: 8px;
     padding: 20px;
-    
         
 }
 
-.containerrr {
-    max-width: 600px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
 h1  {
     text-align: center;
     color: #00796b;
